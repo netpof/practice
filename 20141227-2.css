@@ -1,0 +1,144 @@
+body{
+	margin:0;
+}
+div{
+	b/order:1px solid #000;
+	m/argin: -1px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.main-layout{
+	width:1200px;
+	margin:0 auto;
+}
+
+#header{
+	border-bottom: 1px solid #eee;
+}
+
+
+
+#logo{
+	width:30%;
+	float:left;
+	height:50px;
+}
+#menu{
+	width:40%;
+	float:right;
+	height:50px;
+}
+#logo h1{
+	margin:10px 15px;
+}
+ul.nav{
+	margin:0;
+	padding: 0;
+}
+ul.nav li{
+	margin:0;
+	padding:0;
+	list-style:none; /*去除前面的點*/
+	display:inline-block;/*設定為一行*/
+}
+ul.nav li a{
+	padding:16px 17px 16px 17px;
+	display:inline-block;
+	color: #000;
+	text-decoration: none;	
+}
+ul.nav li a:hover{
+	background-color: #eee;
+}
+
+#banner{
+	background:url(1.jpg) center center no-repeat;
+	height:400px;
+}
+
+.banner-inner{
+	padding-top:130px;
+}
+
+.banner-inner h1{
+	margin:0;
+	text-align:center;
+	color:white;
+	font-size: 130px;
+	text-shadow: 0 0 10px rgba(0,0,0,.6);
+}
+
+/*main body*/
+#main-body{
+	margin-top:100px;
+}
+
+.main-content,
+.right-col{
+	float:left;
+}
+
+.main-content{
+	width:70%;
+}
+
+.right-col{
+	width:30%;
+}
+
+/*article*/
+
+.article-item{
+	margin: 40px 30px 40px 0;
+}
+
+.article-info{
+	color:#ccc;
+}
+
+.readmore{
+	display:inline-block;
+	padding:10px 15px;
+	background-color:rgb(58,141,236);
+	box-shadow:0 5px 0 #1A5BA9;
+	color:white;
+	text-decoration:none;
+	border-radius:5px;
+}
+
+/**/
+p{
+	line-height:150%;
+	margin:2em;
+}
+
+a{
+	color:rgb(50141,236);
+	text-decoration:none;
+}
+a:hover{
+	color:#1A5BA9;
+}
+img{
+	max-width:100%;
+}
+
+#footer{
+	background-color:#222;
+	padding:40px 0;
+	color:white;
+	text-align:center;
+}
+
+#footer ul.nav a{
+	color:white;
+	background:none;
+	padding:10px 15px;
+	}
+#footer ul.nav a:hover{
+	color:#eee;
+	background:none;
+}
